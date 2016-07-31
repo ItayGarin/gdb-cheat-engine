@@ -28,7 +28,9 @@ the counter that holds a character's HP (health points).
 One might leverage this variable to implement a god-mode cheat.
 
 ```python
->>> import gdb
+$ gdb
+  (gdb) source gdb_ce.py
+  (gdb) python-interactive
 >>> inferior = gdb.inferiors()[0]
 >>> ram_addr, ram_size = (0x02000000, 1024 * 256)
 >>> ce = GdbCheatEngine(inferior, ram_addr, ram_size)
