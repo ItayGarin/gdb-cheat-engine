@@ -100,7 +100,7 @@ class GdbCheatEngine(object):
         return self.last_results
 
     def write_memory(self, address, buff):
-        self.inferior.write_memory(address, buff)
+        return self.inferior.write_memory(address, buff)
 
     def read_memory(self, address, length):
-        self.inferior.read_memory(address, length)
+        return self.inferior.read_memory(address, length)
