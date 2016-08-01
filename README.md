@@ -52,4 +52,4 @@ set([0x02000004])
 More Docs
 ---------
 For further documentaiton, check out this blogpost -
-http://garin.io/TODO
+http://www.garin.io/game-cheating-tutorial
